@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image.png" href="./MEDIA/IMAGE/logo2.png">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="htmlpage"  href="./signup.html">
+
+    <title>FLIMSPOT</title>
+    <script>
+      function change(){
+        var userchoice = document.getElementById("nop").value
+        if(userchoice==="Tamil"){
+          window.location.href = "./tamilmovie.html"
+        }
+        else if(userchoice ==="Malayalam")
+        {
+          window.location.href = "./malayalammovie.html"
+        }
+      }
+    </script>
+    
+</head>
+    <body class="bodysignup">
+        <div class="designlogo">
+            <a href="#"><img src="./MEDIA/IMAGE/logo2.png" width="50" height="50" style="border-radius: 30px; margin-top: 20px;"/></a>
+            <div class="t1">
+                <p style="color: white; padding-bottom:20px ;">FLIMSPOT</p>
+                
+            </div>
+       </div>
+
+        
+           <div class="option1">
+            <select class="select1" id="nop">
+                <option>Tamil</option>
+                <option>Malayalam</option>
+                <option>Telungu</option>
+            </select>
+            <button class="next1" onclick="change()">next</button>
+          </div>
+          
+        
+        
+            <div class="movieposter">
+                <div class="mov1">
+                  <img src="./MEDIA/IMAGE/movie/amaran poster.jpg" width="200" height="300px">
+                </div>
+                <div class="mov1">
+                  <img src="./MEDIA/IMAGE/movie/lubber pandhu poster.jpg" width="200" height="300px">
+                </div>
+                <div class="mov1">
+                    <img src="./MEDIA/IMAGE/movie/malayalam poster.jpg" width="200" height="300px">
+                </div>
+                  <div class="mov1">
+                    <img src="./MEDIA/IMAGE/movie/malayalam poster2.jpg" width="200" height="300px">
+                  </div>
+                  <div class="mov1">
+                    <img src="./MEDIA/IMAGE/movie/telungu poster.jpg" width="200" height="300px">
+                  </div>
+                  <div class="mov1">
+                    <img src="./MEDIA/IMAGE/movie/telungu poster2.jpg" width="200" height="300px">
+                  </div>
+                  <div class="mov1">
+                    <img src="./MEDIA/IMAGE/movie/sulthan.jpg" width="200" height="300px">
+                  </div>
+                  <div class="mov1">
+                    <img src="./MEDIA/IMAGE/movie/komali.jpg" width="200" height="300px">
+                  </div>
+            </div>
+            
+    
+            
+           
+
+    </body>
+
+</html>
